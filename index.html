@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Dom Events</title>
+</head>
+<body>
+    <h1 title="This is a tooltip" onclick="console.log('ok')">Dom er EVENTS</h1>
+    <button onclick="document.body.style.backgroundColor = 'white'">Click Me</button>
+    <br><br>
+    <button onclick="document.body.style.backgroundColor = 'Yellow'">Make Yellow</button>
+    <button onclick="makeRed()">Make red</button>
+    <button id="make-blue">Make Blue</button>
+    <button id="make-purple">Make Purple</button>
+    <button id="make-pink">Make Pink</button>
+    <button id="make-green">Make Green</button>
+    <button id="make-orange">Make Orange</button>
+    <h2 id="second-header">Default Text</h2>
+    <button onclick="handleOnclick()">Change Text</button>
+    <button id="event-listener">Change Text</button>
+    <section>
+        <p id="input-text">Updated Text</p>
+        <input type="text" name="" id="input-field">
+        <button id="btn-update">Update</button>
+    </section>
+    <section>
+        <h1>Please add your comment:</h1>
+        <div id="comment-container">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati odio voluptates deleniti nam! Sunt velit sint nesciunt totam dolorem minima magnam, ipsam beatae, eius quidem neque esse maiores earum possimus nobis! Debitis sunt ab, pariatur totam, ullam aut odio soluta quia saepe delectus, repellat explicabo distinctio. Ipsam quos similique vitae?</p>
+            <p>Inventore veniam ullam quo velit totam. Voluptas beatae doloremque laborum, iusto, rem aliquid adipisci perferendis quaerat voluptatum eaque sequi mollitia qui fugiat harum impedit error voluptates facere libero aperiam sapiente incidunt distinctio. Obcaecati praesentium illum repudiandae officia facere eveniet accusamus explicabo eligendi magni, blanditiis esse ducimus voluptas similique, nostrum aliquid.</p>
+            <p>Incidunt tenetur perspiciatis ratione repellendus ut laudantium delectus, molestias quos. Nam odit, numquam accusamus perferendis labore, corporis molestias quibusdam mollitia dignissimos consequuntur maiores veniam molestiae voluptates dolorem excepturi? Inventore dolor atque deserunt impedit rem quae facilis rerum, quis a, pariatur nostrum sequi dolorum nam ad eum sapiente placeat repudiandae ipsa.</p>
+        </div>
+        <div>
+            <textarea name="" id="new-comment" cols="80" rows="10"></textarea>
+            <br>
+            <button id="btn-post">Post</button>
+        </div>
+    </section>
+    <!-- git hub er moto delete -->
+    <section>
+        <h1 id="secret-info">This is secret info!</h1>
+        <input type="text" name="" id="delete-confirm" placeholder="please type delete">
+        <button id="btn-delete" disabled>Delete</button>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
